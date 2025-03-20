@@ -4,13 +4,13 @@
     "description": "FragPunk Tracker - Suivi des statistiques des joueurs",
     "main": "server.js",
     "scripts": {
-      "start": "node server.js"
+        "start": "node server.js"
     },
     "dependencies": {
-      "express": "^4.17.1"
+        "express": "^4.17.1",
+        "node-fetch": "^3.3.2"
     },
     "engines": {
-      "node": "14.x"
+        "node": "14.x"
     }
-  }
-  
+}
