@@ -16,7 +16,7 @@ app.get('/search', (req, res) => res.sendFile(path.join(__dirname, 'search.html'
 // Route pour récupérer les mises à jour depuis le site officiel
 app.get('/updates', async (req, res) => {
     try {
-        const response = await fetch("https://www.fragpunk.com/index.html#/news");
+        const response = await fetch("https://www.fragpunk.com/news/index.html");
         if (!response.ok) {
             throw new Error("Impossible de récupérer les mises à jour.");
         }
