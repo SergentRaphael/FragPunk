@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche de Joueurs</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="search.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="search.html">Recherche</a>
+            <a href="leaderboard.html">Classement</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Rechercher un joueur</h2>
+        <input type="text" id="playerInput" placeholder="Entrez un pseudo">
+        <button onclick="fetchStats()">Rechercher</button>
+        <div id="stats"></div>
+    </main>
+</body>
+</html>
