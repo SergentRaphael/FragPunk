@@ -2,7 +2,7 @@ async function fetchUpdates() {
     const updatesDiv = document.getElementById("updates");
 
     try {
-        const response = await fetch("https://www.fragpunk.com/index.html#/news", {
+        const response = await fetch("https://www.fragpunk.com/news/", {
             mode: "no-cors"
         });
 
